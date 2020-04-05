@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 /**
  * 여기에 RobotWalk 클래스 설명을 작성하십시오.
  * 
@@ -8,25 +8,30 @@ import java.util.Scanner;
 public class RobotWalk
 {
     public static void main(String[] args){
+        String Trafficlight;
         
-        //String trafficLight;
         
-        result = RobotWalk();        
-        System.out.println(result);
+        Trafficlight = "green";
+        Trafficlight = "yellow";
+        Trafficlight = "red";
+        
+        System.out.println(RobotWalk("green"));
+        System.out.println(RobotWalk("yellow"));
+        System.out.println(RobotWalk("red"));
+
     }
     
-    public static String RobotWalk(){
-        double Speed = 50;
-        Scanner trafficLight = new Scanner(System.in);
-        if(trafficLight.equals("green")){    
+    public static double RobotWalk(String Trafficlight){
+        double Speed = 50.0;
+        if(Trafficlight == "green"){    
            
         }
-        else if(trafficLight.equals("yellow")){
+        else if(Trafficlight == "yellow"){
             Speed = Speed*1.2; 
         }
         else{
             Speed = 0;
         }
-        return RobotWalk();
+        return Speed;
     }
 }
