@@ -8,12 +8,12 @@
 public class RobotWalkSpeed
 {
     public static void main(String[] args){
-        String trafficLight;
+        String trafficLight; // trafficLight 선언 
                
-        trafficLight = "green";
-        trafficLight = "yellow";
-        trafficLight = "red";
-        
+        trafficLight = "green"; // 초기화 
+        trafficLight = "yellow"; // 초기화 
+        trafficLight = "red"; // 초기화 
+       
         System.out.println("교통신호가 녹색이므로 " + RobotWalk("green") + 
                             "km/h" + " 속도로 보행 계속");
         System.out.println("교통신호가 노란색이므로 " + RobotWalk("yellow") + 
@@ -23,7 +23,7 @@ public class RobotWalkSpeed
     }
     
     public static int RobotWalk(String trafficLight){
-        int speed = 5;
+        int speed = 5; // speed 값 5로 설정
         if(trafficLight == "green"){    
             
         }
