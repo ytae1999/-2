@@ -15,9 +15,9 @@ public class RobotWalk
         Trafficlight = "yellow";
         Trafficlight = "red";
         
-        System.out.println(RobotWalk("green"));
-        System.out.println(RobotWalk("yellow"));
-        System.out.println(RobotWalk("red"));
+        System.out.println(RobotWalk("green")+"km/h");
+        System.out.println(RobotWalk("yellow")+"km/h");
+        System.out.println(RobotWalk("red")+"km/h");
 
     }
     
