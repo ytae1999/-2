@@ -8,6 +8,7 @@
 public class RobotTest extends Robot
 {
     public static void main(String[] args){
+        
         String trafficLight; // trafficLight 선언 
                
         trafficLight = "green"; // 초기화 

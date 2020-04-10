@@ -8,9 +8,10 @@
 public class Robot
 {    
     public static int RobotWalk(String trafficLight){
-        int speed = 5; // speed 값 5로 설정
+        speed = 5; // speed 값 5로 설정
         if(trafficLight == "green"){    
-            
+        
+      
         }
         else if(trafficLight == "yellow"){
             speed = (int)(speed*1.2); 
