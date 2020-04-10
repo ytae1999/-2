@@ -6,17 +6,18 @@
  * @version (2020.04.10) 
  */
 public class Robot
-{    
-    public static int RobotWalk(String trafficLight){
-        int speed = 5; // speed 값 5로 설정
+{   
+    public static int RobotWalk(String trafficLight, int speed){                  
+        trafficLight = "green"; // 초기화 
+        trafficLight = "yellow"; // 초기화 
+        trafficLight = "red"; // 초기화 
+        
         if(trafficLight == "green"){    
-            
-        }
-        else if(trafficLight == "yellow"){
-            speed = (int)(speed*1.2); 
-        }
-        else{
-            speed = 0;
+            if(trafficLight == "yellow"){
+                speed = (int)(speed*1.2);                 
+            }else{
+                speed = 0;   
+            }
         }
         return speed;
     }
