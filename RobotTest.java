@@ -15,7 +15,7 @@ public class RobotTest extends Robot
         trafficLight = "yellow"; // 초기화 
         trafficLight = "red"; // 초기화 
        
-        System.out.println("교통신호가 녹색이므로 " + RobotWalk("green") + 
+        System.out.println("교통신호가 녹색이므로 " +  RobotWalk("green") + 
                             "km/h" + " 속도로 보행 계속");
         System.out.println("교통신호가 노란색이므로 " + RobotWalk("yellow") + 
                             "km/h" + " 속도로 보행 계속");
