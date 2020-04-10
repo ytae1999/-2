@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 =======
-
+.
 >>>>>>> 2024b459e825bbf6031de483a0cb6f95face24b2
 /**
  * Robot클래스를 실행시키는 메인 클래스
@@ -23,7 +23,11 @@ public class RobotTest extends Robot
 >>>>>>> 2024b459e825bbf6031de483a0cb6f95face24b2
        
 <<<<<<< HEAD
+<<<<<<< HEAD
         System.out.println("교통신호가 녹색이므로 " +  RobotWalk("green") + 
+=======
+        System.out.println("교통신호가 녹색이므로 " + RobotWalk("green", 5) +
+>>>>>>> 8b2316d5b5ef09fcae4715e3de8dccde0d4a2e32
 =======
         System.out.println("교통신호가 녹색이므로 " + RobotWalk("green", 5) +
 >>>>>>> 8b2316d5b5ef09fcae4715e3de8dccde0d4a2e32
