@@ -7,7 +7,7 @@
  */
 public class Robot
 {    
-    public static int RobotWalk(String trafficLight){
+    public static int RobotWalk(String trafficLight, int speed){
         speed = 5; // speed 값 5로 설정
         if(trafficLight == "green"){    
         
