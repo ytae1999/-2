@@ -1,3 +1,4 @@
+
 /**
  * Robot클래스를 실행시키는 메인 클래스
  *
@@ -6,8 +7,7 @@
  */
 public class RobotTest extends Robot
 {
-    public static void main(String[] args){        
-       
+    public static void main(String[] args){               
         System.out.println("교통신호가 녹색이므로 " + RobotWalk("green", 5) +
                             "km/h" + " 속도로 보행 계속");
         System.out.println("교통신호가 노란색이므로 " + RobotWalk("yellow", 5) + 
