@@ -11,7 +11,8 @@ public class Robot
     int speed; //변수 정의
 
     public static int RobotWalk(String trafficLight, int speed){                       
-        if(trafficLight != "green"){                    
+        if(trafficLight != "green"){
+            
             if(trafficLight == "yellow"){ 
                 speed = (int)(speed*1.2);                            
             }
