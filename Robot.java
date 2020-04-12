@@ -13,12 +13,20 @@ public class Robot
     public static int RobotWalk(String trafficLight, int speed){                       
         if(trafficLight != "green"){                    
             if(trafficLight == "yellow"){ 
+<<<<<<< HEAD
                 speed = (int)(speed*1.2); 
                 if(trafficLight == "red"){
                     speed = 0;                      
                 }
                 
             }   
+=======
+                speed = (int)(speed*1.2);                            
+            }
+            if(trafficLight == "red"){
+                speed = 0;                      
+                }     
+>>>>>>> 6721e5165d6473f6082bc0e4903f08505218c18a
         }         
         return speed;
     }
