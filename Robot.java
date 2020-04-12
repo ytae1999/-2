@@ -18,7 +18,7 @@ public class Robot
                     speed = 0;                      
                 }
                 
-            }
+            }   
         }         
         return speed;
     }
