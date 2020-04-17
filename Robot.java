@@ -1,4 +1,3 @@
-
 /**
  * RobotWalk 메소드에 대한 코드
  * 
@@ -12,12 +11,21 @@ public class Robot
 
     public static int RobotWalk(String trafficLight, int speed){                       
         if(trafficLight != "green"){            
+<<<<<<< HEAD
             if(trafficLight == "yellow" || trafficLight != "yellow"){  
                 speed = (int)(speed*1.2);
                 if(trafficLight == "red"){
                     speed = 0;                   
                 }                 
             }          
+=======
+            if(trafficLight == "yellow"){ 
+                speed = (int)(speed*1.2);                            
+            }
+            if(trafficLight == "red"){
+                speed = 0;                      
+                }     
+>>>>>>> dc0925b81bec1f0320732a1911d38e23a5d60265
         }         
         return speed;
     }
