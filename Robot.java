@@ -7,17 +7,22 @@
 public class Robot
 {           
     String trafficLight; //변수 정의
-    int speed; //변수 정의
-
-    public static int RobotWalk(String trafficLight, int speed){                       
-        if(trafficLight != "green"){            
-            if(trafficLight == "yellow" || trafficLight != "yellow"){  
-                speed = (int)(speed*1.2);
-                if(trafficLight == "red"){
-                    speed = 0;                   
-                }                 
-            }          
-        }         
+    double speed; //변수 정의
+    
+    public double getSpeed(){
         return speed;
+    }
+    
+    public void setSpeed(double Speed){
+        this.speed = speed;
+    }
+    
+    public void RobotWalk(String trafficLight, double speed){                       
+        if(trafficLight == "green"){            
+        }else if(trafficLight == "yellow"){
+            speed = speed * 1.2;           
+        }else{
+            speed = 0;
+            }       
     }
 }
